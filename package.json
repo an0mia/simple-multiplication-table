@@ -1,0 +1,19 @@
+{
+  "name": "s03-bases-node",
+  "version": "0.0.1",
+  "description": "Es una simple tabla de multiplicar con archivo de texto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app --num=3",
+    "base6": "node app --num=6",
+    "base9": "node app --num=9",
+    "base12": "node app --num=12"
+  },
+  "author": "Nicolas Alvarez",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^16.2.0"
+  }
+}
